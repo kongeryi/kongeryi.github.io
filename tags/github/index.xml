@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on 折枝</title>
+    <link>https://kongeryi.github.io/tags/github/</link>
+    <description>Recent content in Github on 折枝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kongeryi.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github入门术语</title>
+      <link>https://kongeryi.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kongeryi.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</guid>
+      <description>什么是Git Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。
+Repository 仓库，储存项目的空间。建立项目之前需要建立仓库，一个项目对应一个仓库 Issues 针对于项目bug，审查者提出的问题。or审查者希望项目增加新的特性，而提出的建议。
+Star 点赞，遇到一个较好项目时可以为其”点赞“，Star过的项目会保存到点赞者的”star“库中。
+Fork 拉分支，若对一个项目感兴趣，并且希望基于该项目开发新功能时，开发者可以Fork此项目。Fork之后就复制一个完全相同的项目到开发者的github仓库中，此项目独立于原项目，有着独立的时间线。
+Pull Request 提交请求，建立在Fork之上。Fork一个项目并进行完善之后，可以对原项目的拥有者提出Pull Request。
+Merge 合并，别人Fork你的项目，对其进行完善之后，若其提出Pull Request，此时你可以审查该请求。如果Pull Request内容满足你的要求，且未与原项目冲突，你可以选择将其合并到项目之中。
+Watch 观察，若希望及时得到一个项目的更新通知，你可以Watch该项目
+Gist 分享片段化的代码。翻不出去，网络奇差</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>前端 on 折枝</title>
+    <link>https://kongeryi.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 前端 on 折枝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kongeryi.github.io/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>前端优化法则</title>
+      <link>https://kongeryi.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kongeryi.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</guid>
+      <description>前两天被人问到前端的优化有哪些，我支支吾吾也只能说出两三条，表示很惭愧。
+说到前端优化的必修课，那就是 Yahoo的前端优化性能规则 ，里面都是别人的经验总结，有 35 条之多，这是先分类在文章最后，之后会个别阐述我针对最初的 14 条，借鉴别人的翻译成果和我自己的解读
+35条分类  标注 ＊ 号的是最初的14条
+  内容  减少HTTP请求 * 减少DNS查询 * 避免重定向 * Ajax缓存化 * 后载入组件 预先载入组件 减少DOM元素数量 跨域分离组件 最少化iframe 避免404错误  服务端  使用CDN（内容分布网络）* 增加过期时间或者可控制缓存的请求头 * 使用Gzip组件 * 配置ETags（实体标签）* 提前刷新缓冲区 Ajax请求使用Get方法 避免空的图片src  Cookie  减少Cookie大小 为组件使用无Cookie域  CSS  将样式放在顶部 * 避免使用CSS表达式 * 选择link而不要@import 避免过滤器  JavaScript  将JS放在底部 * 使用外部的JS和CSS * 压缩JS和CSS * 去掉重复的脚本 * 最小化Dom读取 开发灵活的事件处理器  图片  优化图片 优化CSS Sprites（CSS精灵） 在HTML中不要缩放图片 制作小的和可缓存的favicon.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html lang="en-us">
+  <head>
+    <title>折枝</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="精靈球" />
+    <meta name="author" content="進擊的可達鴨" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overlock"
+      rel="stylesheet"
+    />
+
+    <script>
+      setColors = function() {
+        let images = document.querySelectorAll("img");
+        images.forEach(elem => elem.classList.add("img-fluid", "rounded"));
+
+        let imagecaption = document.querySelectorAll("figcaption");
+        imagecaption.forEach(elem => elem.classList.add("initialism"));
+      };
+      window.onload = setColors;
+    </script>
+
+    <style>
+      a {
+        color: #ffc107 !important;
+      }
+      code {
+        color: #17a2b8 !important;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      * {
+        font-family: "Overlock", cursive;
+      }
+    </style>
+  </head>
+</html>
+
+
+<body class="container bg-dark text-white">
+    <div class="btn-group mt-2 mb-4">
+  
+  <a href="/" class="border-warning bg-dark btn"
+    ><span>主頁</span>
+  </a>
+  
+  <a href="/posts/" class="border-warning bg-dark btn"
+    ><span>歸檔</span>
+  </a>
+  
+  <a href="/categories/" class="border-warning bg-dark btn"
+    ><span>分類</span>
+  </a>
+  
+  <a href="/tags/" class="border-warning bg-dark btn"
+    ><span>标签</span>
+  </a>
+  
+</div>
+
+    
+<main>
+  <h1>
+    <u>Hello World</u>
+  </h1>
+  <ul class="list-inline">
+    <li class="list-inline-item">
+      2018-Dec-15 |
+      <a href="/tags/">
+        <i class="fas fa-tags"></i>
+      </a>
+    </li>
+    
+    <li class="list-inline-item">
+      <a href="/tags/Hello%20World/">
+        Hello World
+      </a>
+    </li>
+    
+  </ul>
+  <div>
+    <article id="content">
+      <p>The <code>hugo new theme</code> command will scaffold the beginnings of a new theme for you to get you on your way.</p>
+
+<p>If you’re creating a theme with plans to share it on the Hugo Themes website please note the following: - If using inline styles you will need to use absolute URLs, for the linked assets to be served properly, e.g. <code>&lt;div style=&quot;background: url('{{ &quot;images/background.jpg&quot; | absURL }}')&quot;&gt;</code> - Make sure not to use a forward slash <code>/</code> in the beginning of a <code>URL</code>, because it will point to the host root. Your theme’s demo will be available in a subdirectory of the Hugo website and in this scenario Hugo will not generate the correct <code>URL</code> for theme assets. - If using external CSS and JS from a CDN, make sure to load these assets over <code>https</code>. Please do not use relative protocol URLs in your theme’s templates.</p>
+
+<p>Hugo can initialize a new blank theme directory within your existing themes using the hugo new command:</p>
+
+<pre><code>hugo new theme [name]
+</code></pre>
+
+<p>An image is here.</p>
+
+<figure>
+    <img src="/images/post1/post1_skyline.jpeg"
+         alt="Awesome Caption Here"/> <figcaption>
+            <p>Awesome Caption <em>Here</em></p>
+        </figcaption>
+</figure>
+
+
+<p>If you’re creating a theme with plans to share it on the Hugo Themes website please note the following: - If using inline styles you will need to use absolute URLs, for the linked assets to be served properly, e.g. <code>&lt;div style=&quot;background: url('{{ &quot;images/background.jpg&quot; | absURL }}')&quot;&gt;</code> - Make sure not to use a forward slash <code>/</code> in the beginning of a <code>URL</code>, because it will point to the host root. Your theme’s demo will be available in a subdirectory of the Hugo website and in this scenario Hugo will not generate the correct <code>URL</code> for theme assets. - If using external CSS and JS from a CDN, make sure to load these assets over <code>https</code>. Please do not use relative protocol URLs in your theme’s templates.</p>
+
+    </article>
+  </div>
+</main>
+<div class="w-50 bg-danger ml-auto mr-auto mt-4" style="height: 2px;"></div>
+<div class="mt-4 mb-2" style="font-size: 0.9em;">
+  <p class="text-center">
+    &copy; 2018 - 2019 折枝
+  </p>
+</div>
+
+
+</body>
+
+</html>

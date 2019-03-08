@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html lang="en-us">
+  <head>
+    <title>折枝</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="精靈球" />
+    <meta name="author" content="進擊的可達鴨" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overlock"
+      rel="stylesheet"
+    />
+
+    <script>
+      setColors = function() {
+        let images = document.querySelectorAll("img");
+        images.forEach(elem => elem.classList.add("img-fluid", "rounded"));
+
+        let imagecaption = document.querySelectorAll("figcaption");
+        imagecaption.forEach(elem => elem.classList.add("initialism"));
+      };
+      window.onload = setColors;
+    </script>
+
+    <style>
+      a {
+        color: #ffc107 !important;
+      }
+      code {
+        color: #17a2b8 !important;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      * {
+        font-family: "Overlock", cursive;
+      }
+    </style>
+  </head>
+</html>
+
+
+<body class="container bg-dark text-white">
+    <div class="btn-group mt-2 mb-4">
+  
+  <a href="/" class="border-warning bg-dark btn"
+    ><span>主頁</span>
+  </a>
+  
+  <a href="/posts/" class="border-warning bg-dark btn"
+    ><span>歸檔</span>
+  </a>
+  
+  <a href="/categories/" class="border-warning bg-dark btn"
+    ><span>分類</span>
+  </a>
+  
+  <a href="/tags/" class="border-warning bg-dark btn"
+    ><span>标签</span>
+  </a>
+  
+</div>
+
+    
+<main>
+  <h1>
+    <u>Github入门术语</u>
+  </h1>
+  <ul class="list-inline">
+    <li class="list-inline-item">
+      2018-Oct-10 |
+      <a href="/tags/">
+        <i class="fas fa-tags"></i>
+      </a>
+    </li>
+    
+    <li class="list-inline-item">
+      <a href="/tags/GitHub/">
+        GitHub
+      </a>
+    </li>
+    
+  </ul>
+  <div>
+    <article id="content">
+      
+
+<h4 id="什么是git">什么是Git</h4>
+
+<p>Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。</p>
+
+<h4 id="repository">Repository</h4>
+
+<p>仓库，储存项目的空间。建立项目之前需要建立仓库，一个项目对应一个仓库
+<!-- more --></p>
+
+<h4 id="issues">Issues</h4>
+
+<p>针对于项目bug，审查者提出的问题。or审查者希望项目增加新的特性，而提出的建议。</p>
+
+<h4 id="star">Star</h4>
+
+<p>点赞，遇到一个较好项目时可以为其”点赞“，Star过的项目会保存到点赞者的”star“库中。</p>
+
+<h4 id="fork">Fork</h4>
+
+<p>拉分支，若对一个项目感兴趣，并且希望基于该项目开发新功能时，开发者可以Fork此项目。Fork之后就复制一个完全相同的项目到开发者的github仓库中，此项目独立于原项目，有着独立的时间线。</p>
+
+<h4 id="pull-request">Pull Request</h4>
+
+<p>提交请求，建立在Fork之上。Fork一个项目并进行完善之后，可以对原项目的拥有者提出Pull Request。</p>
+
+<h4 id="merge">Merge</h4>
+
+<p>合并，别人Fork你的项目，对其进行完善之后，若其提出Pull Request，此时你可以审查该请求。如果Pull Request内容满足你的要求，且未与原项目冲突，你可以选择将其合并到项目之中。</p>
+
+<h4 id="watch">Watch</h4>
+
+<p>观察，若希望及时得到一个项目的更新通知，你可以Watch该项目</p>
+
+<h4 id="gist">Gist</h4>
+
+<p>分享片段化的代码。<del>翻不出去，网络奇差</del></p>
+
+    </article>
+  </div>
+</main>
+<div class="w-50 bg-danger ml-auto mr-auto mt-4" style="height: 2px;"></div>
+<div class="mt-4 mb-2" style="font-size: 0.9em;">
+  <p class="text-center">
+    &copy; 2018 - 2019 折枝
+  </p>
+</div>
+
+
+</body>
+
+</html>

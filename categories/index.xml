@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 折枝</title>
+    <link>https://kongeryi.github.io/categories/</link>
+    <description>Recent content in Categories on 折枝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://kongeryi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>前端</title>
+      <link>https://kongeryi.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kongeryi.github.io/categories/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基础教程</title>
+      <link>https://kongeryi.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kongeryi.github.io/categories/%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>随笔文集</title>
+      <link>https://kongeryi.github.io/categories/%E9%9A%8F%E7%AC%94%E6%96%87%E9%9B%86/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kongeryi.github.io/categories/%E9%9A%8F%E7%AC%94%E6%96%87%E9%9B%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
