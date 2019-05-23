@@ -13,20 +13,20 @@
     
     <item>
       <title>Hello World</title>
-      <link>https://kongeryi.github.io/posts/hello-world/</link>
+      <link>https://rreading.github.io/posts/hello-world/</link>
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kongeryi.github.io/posts/hello-world/</guid>
+      <guid>https://rreading.github.io/posts/hello-world/</guid>
       <description>The hugo new theme command will scaffold the beginnings of a new theme for you to get you on your way.
 If you’re creating a theme with plans to share it on the Hugo Themes website please note the following: - If using inline styles you will need to use absolute URLs, for the linked assets to be served properly, e.g. &amp;lt;div style=&amp;quot;background: url(&#39;{{ &amp;quot;images/background.jpg&amp;quot; | absURL }}&#39;)&amp;quot;&amp;gt; - Make sure not to use a forward slash / in the beginning of a URL, because it will point to the host root.</description>
     </item>
     
     <item>
       <title>山鬼情书之零</title>
-      <link>https://kongeryi.github.io/posts/%E5%B1%B1%E9%AC%BC%E6%83%85%E4%B9%A6%E4%B9%8B%E9%9B%B6/</link>
+      <link>https://rreading.github.io/posts/%E5%B1%B1%E9%AC%BC%E6%83%85%E4%B9%A6%E4%B9%8B%E9%9B%B6/</link>
       <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kongeryi.github.io/posts/%E5%B1%B1%E9%AC%BC%E6%83%85%E4%B9%A6%E4%B9%8B%E9%9B%B6/</guid>
+      <guid>https://rreading.github.io/posts/%E5%B1%B1%E9%AC%BC%E6%83%85%E4%B9%A6%E4%B9%8B%E9%9B%B6/</guid>
       <description>匹夫说我生来骄傲，
 I’m proud of my husband.
 不肯半分折腰，
@@ -43,10 +43,10 @@ My mind is in the west wind.</description>
     
     <item>
       <title>前端优化法则</title>
-      <link>https://kongeryi.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</link>
+      <link>https://rreading.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</link>
       <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kongeryi.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</guid>
+      <guid>https://rreading.github.io/posts/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96%E6%B3%95%E5%88%99/</guid>
       <description>前两天被人问到前端的优化有哪些，我支支吾吾也只能说出两三条，表示很惭愧。
 说到前端优化的必修课，那就是 Yahoo的前端优化性能规则 ，里面都是别人的经验总结，有 35 条之多，这是先分类在文章最后，之后会个别阐述我针对最初的 14 条，借鉴别人的翻译成果和我自己的解读
 35条分类  标注 ＊ 号的是最初的14条
@@ -55,10 +55,10 @@ My mind is in the west wind.</description>
     
     <item>
       <title>起风了</title>
-      <link>https://kongeryi.github.io/posts/%E8%B5%B7%E9%A3%8E%E4%BA%86/</link>
+      <link>https://rreading.github.io/posts/%E8%B5%B7%E9%A3%8E%E4%BA%86/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kongeryi.github.io/posts/%E8%B5%B7%E9%A3%8E%E4%BA%86/</guid>
+      <guid>https://rreading.github.io/posts/%E8%B5%B7%E9%A3%8E%E4%BA%86/</guid>
       <description>起风了 (原曲： 高桥优 -《ヤキモチ》) - 买辣椒也用券 词：米果
 曲：高桥优
 这一路上走走停停
@@ -115,10 +115,10 @@ My mind is in the west wind.</description>
     
     <item>
       <title>Github入门术语</title>
-      <link>https://kongeryi.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</link>
+      <link>https://rreading.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://kongeryi.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</guid>
+      <guid>https://rreading.github.io/posts/github%E5%85%A5%E9%97%A8%E6%9C%AF%E8%AF%AD/</guid>
       <description>什么是Git Git是一个版本控制系统（Version Control System），版本控制即记录一个或若干文件内容变化的情况。Git属于分布式版本控制系统，客户端提取文件时总是镜像的完整仓库。
 Repository 仓库，储存项目的空间。建立项目之前需要建立仓库，一个项目对应一个仓库 Issues 针对于项目bug，审查者提出的问题。or审查者希望项目增加新的特性，而提出的建议。
 Star 点赞，遇到一个较好项目时可以为其”点赞“，Star过的项目会保存到点赞者的”star“库中。
